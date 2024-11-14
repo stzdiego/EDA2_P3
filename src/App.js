@@ -1,11 +1,12 @@
 import './App.css';
 import { PokemonApp } from "./Components/PokemonApp";
-import {TodoApp} from "./Components/TodoApp";
+import { TodoAppRedux } from "./Components/TodoAppRedux";
 
 function App() {
     return (
         <>
-            <TodoApp />
+            <TodoAppRedux />
+            <hr />
             <PokemonApp />
         </>
     );

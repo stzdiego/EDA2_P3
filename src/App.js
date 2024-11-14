@@ -1,13 +1,13 @@
 import './App.css';
-import { PokemonApp } from "./Components/PokemonApp";
 import { TodoAppRedux } from "./Components/TodoAppRedux";
+import { PokemonAppReduxRTK } from "./Components/PokemonAppReduxRTK";
 
 function App() {
     return (
         <>
             <TodoAppRedux />
             <hr />
-            <PokemonApp />
+            <PokemonAppReduxRTK />
         </>
     );
 }
